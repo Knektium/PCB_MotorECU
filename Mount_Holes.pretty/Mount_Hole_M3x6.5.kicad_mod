@@ -1,0 +1,9 @@
+(module Mount_Hole_M3x6.5 (layer F.Cu) (tedit 5C0571EC)
+  (fp_text reference M** (at -1.2 3.2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Motor_Mount_Hole (at 0 -3.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 11.55 5) (drill oval 9.75 3.2) (layers *.Cu *.Mask))
+)

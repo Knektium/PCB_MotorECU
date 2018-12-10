@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Mount_Holes)(type KiCad)(uri ${KIPRJMOD}/Mount_Holes.pretty)(options "")(descr "Mount holes"))
+  (lib (name WheelECU)(type KiCad)(uri ${KIPRJMOD}/)(options "")(descr WheelECU))
+)
