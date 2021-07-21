@@ -1,10 +1,9 @@
-(module Motor_Center_Hole (layer F.Cu) (tedit 5D067144)
+(module Motor_Center_Hole (layer F.Cu) (tedit 6026FC44)
   (fp_text reference M** (at 0 6.2) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Motor_Center_Hole (at 0 -6.8) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 8.5 8.5) (drill 8.5) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.5) (clearance 0.75))
+  (pad "" np_thru_hole circle (at 0 0) (size 10 10) (drill 10) (layers *.Cu *.Mask))
 )
