@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name Wheel_ECU-rescue)(type Legacy)(uri ${KIPRJMOD}/Wheel_ECU-rescue.lib)(options "")(descr ""))
-  (lib (name wheel_ecu)(type Legacy)(uri ${KIPRJMOD}/wheel_ecu.lib)(options "")(descr ""))
+  (lib (name Wheel_ECU-rescue)(type Legacy)(uri ${KIPRJMOD}/Motor_ECU-rescue.lib)(options "")(descr ""))
+  (lib (name wheel_ecu)(type Legacy)(uri ${KIPRJMOD}/motor_ecu.lib)(options "")(descr ""))
 )
