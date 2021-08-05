@@ -60,6 +60,155 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Motor_ECU-rescue_+5V-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_+5V-Wheel_ECU-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Motor_ECU-rescue_+5V-Wheel_ECU-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_C-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_C-Wheel_ECU-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Motor_ECU-rescue_C-Wheel_ECU-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_Conn_01x02-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_Conn_01x02-Wheel_ECU-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Motor_ECU-rescue_Conn_01x02-Wheel_ECU-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_Conn_01x04-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_Conn_01x04-Wheel_ECU-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Motor_ECU-rescue_Conn_01x04-Wheel_ECU-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_Conn_02x04_Odd_Even-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_Conn_02x04_Odd_Even-Wheel_ECU-rescue J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Motor_ECU-rescue_Conn_02x04_Odd_Even-Wheel_ECU-rescue" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 300 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_GND-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_GND-Wheel_ECU-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Motor_ECU-rescue_GND-Wheel_ECU-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Motor_ECU-rescue_TVS_Diode-Wheel_ECU-rescue
+#
+DEF Motor_ECU-rescue_TVS_Diode-Wheel_ECU-rescue D 0 40 Y Y 1 F N
+F0 "D" -350 -150 60 H V C CNN
+F1 "Motor_ECU-rescue_TVS_Diode-Wheel_ECU-rescue" -300 -550 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 4 0 1 0 -350 -350 -250 -300 -250 -400 -350 -350 N
+P 4 0 1 0 -300 -450 -350 -400 -350 -300 -400 -250 N
+X ~ 1 -550 -350 200 R 50 50 1 1 C
+X ~ 2 -50 -350 200 L 50 50 1 1 C
+ENDDRAW
+ENDDEF
+#
 # Sensor_Temperature_LM35-D
 #
 DEF Sensor_Temperature_LM35-D U 0 40 Y Y 1 F N
@@ -93,195 +242,11 @@ X +VS 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Wheel_ECU-rescue_+5V
+# mcu_XMC1404_F064
 #
-DEF Wheel_ECU-rescue_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Wheel_ECU-rescue_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_C
-#
-DEF Wheel_ECU-rescue_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Wheel_ECU-rescue_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_Conn_01x02
-#
-DEF Wheel_ECU-rescue_Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Wheel_ECU-rescue_Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_Conn_01x04
-#
-DEF Wheel_ECU-rescue_Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Wheel_ECU-rescue_Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_Conn_02x04_Odd_Even
-#
-DEF Wheel_ECU-rescue_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 200 50 H V C CNN
-F1 "Wheel_ECU-rescue_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 150 -250 1 1 10 f
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 300 100 150 L 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 300 0 150 L 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 300 -100 150 L 50 50 1 1 P
-X Pin_7 7 -200 -200 150 R 50 50 1 1 P
-X Pin_8 8 300 -200 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_GND
-#
-DEF Wheel_ECU-rescue_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Wheel_ECU-rescue_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_TLE4964
-#
-DEF Wheel_ECU-rescue_TLE4964 U 0 40 Y Y 1 F N
-F0 "U" 200 -100 60 H V C CNN
-F1 "Wheel_ECU-rescue_TLE4964" -250 -100 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -450 -200 350 -550 0 1 0 N
-X Vdd 1 -650 -300 200 R 50 50 1 1 W
-X Q 2 550 -300 200 L 50 50 1 1 C
-X GND 3 -650 -450 200 R 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_TLE7251
-#
-DEF Wheel_ECU-rescue_TLE7251 U 0 40 Y Y 1 F N
-F0 "U" 500 -200 60 H V C CNN
-F1 "Wheel_ECU-rescue_TLE7251" -50 -200 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 650 -950 -250 -300 0 1 0 N
-X TxD 1 -450 -400 200 R 50 50 1 1 I
-X GND 2 -450 -850 200 R 50 50 1 1 w
-X Vcc 3 -450 -700 200 R 50 50 1 1 W
-X RxD 4 -450 -550 200 R 50 50 1 1 O
-X Vio 5 850 -850 200 L 50 50 1 1 W
-X CANL 6 850 -700 200 L 50 50 1 1 U
-X CANH 7 850 -550 200 L 50 50 1 1 U
-X STB 8 850 -400 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_TVS_Diode
-#
-DEF Wheel_ECU-rescue_TVS_Diode D 0 40 Y Y 1 F N
-F0 "D" -350 -150 60 H V C CNN
-F1 "Wheel_ECU-rescue_TVS_Diode" -300 -550 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 4 0 1 0 -350 -350 -250 -300 -250 -400 -350 -350 N
-P 4 0 1 0 -300 -450 -350 -400 -350 -300 -400 -250 N
-X ~ 1 -550 -350 200 R 50 50 1 1 C
-X ~ 2 -50 -350 200 L 50 50 1 1 C
-ENDDRAW
-ENDDEF
-#
-# Wheel_ECU-rescue_XMC1404_F064
-#
-DEF Wheel_ECU-rescue_XMC1404_F064 U 0 40 Y Y 1 F N
+DEF mcu_XMC1404_F064 U 0 40 Y Y 1 F N
 F0 "U" 800 -100 60 H V C CNN
-F1 "Wheel_ECU-rescue_XMC1404_F064" -750 -100 60 H V C CNN
+F1 "mcu_XMC1404_F064" -750 -100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -353,26 +318,11 @@ X P2.0 9 -1200 -1400 200 R 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# power_+BATT
+# motor_drivers_IFX9201SG
 #
-DEF power_+BATT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+BATT" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# wheel_ecu_IFX9201SG
-#
-DEF wheel_ecu_IFX9201SG U 0 40 Y Y 1 F N
+DEF motor_drivers_IFX9201SG U 0 40 Y Y 1 F N
 F0 "U" 450 650 60 H V R CNN
-F1 "wheel_ecu_IFX9201SG" -450 650 60 H V L CNN
+F1 "motor_drivers_IFX9201SG" -450 650 60 H V L CNN
 F2 "" 50 800 60 H I C CNN
 F3 "" 50 800 60 H I C CNN
 DRAW
@@ -389,6 +339,56 @@ X GND 6 -650 -550 200 R 50 50 1 1 w
 X OUT2 7 650 300 200 L 50 50 1 1 B
 X SI 8 -650 150 200 R 50 50 1 1 O
 X CSN 9 -650 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# sensors_TLE4964
+#
+DEF sensors_TLE4964 U 0 40 Y Y 1 F N
+F0 "U" 200 -100 60 H V C CNN
+F1 "sensors_TLE4964" -250 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -450 -200 350 -550 0 1 0 N
+X Vdd 1 -650 -300 200 R 50 50 1 1 W
+X Q 2 550 -300 200 L 50 50 1 1 C
+X GND 3 -650 -450 200 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# transceivers_TLE7251
+#
+DEF transceivers_TLE7251 U 0 40 Y Y 1 F N
+F0 "U" 500 -200 60 H V C CNN
+F1 "transceivers_TLE7251" -50 -200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 650 -950 -250 -300 0 1 0 N
+X TxD 1 -450 -400 200 R 50 50 1 1 I
+X GND 2 -450 -850 200 R 50 50 1 1 w
+X Vcc 3 -450 -700 200 R 50 50 1 1 W
+X RxD 4 -450 -550 200 R 50 50 1 1 O
+X Vio 5 850 -850 200 L 50 50 1 1 W
+X CANL 6 850 -700 200 L 50 50 1 1 U
+X CANH 7 850 -550 200 L 50 50 1 1 U
+X STB 8 850 -400 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
