@@ -3,33 +3,41 @@ Motor ECU
 
 This is the KiCad project for the PCB that is used as ECU for the Wheel and
 CentrifugalFan modules.
+
 It's a circular PCB that a brushed DC motor can be directly mounted on to be
 controlled by the driver and MCU onboard through CAN.
 
+![PCB rendered in KiCad](Motor_ECU.png)
+
 Specifications
 --------------
-PCB layers: 2
-PCB diameter: 61 mm
-Max motor diameter: 28 mm
-Motor center hole diameter: 10mm
-Motor voltage: 6 - 36 V
-Max motor current: 6 A
-Interface: CAN
+
+| Name                       | Value    |
+| -------------------------- | -------- |
+| PCB layers                 | 2        |
+| PCB diameter               | 61 mm    |
+| Max motor diameter         | 28 mm    |
+| Motor center hole diameter | 10mm     |
+| Motor voltage              | 6 - 36 V |
+| Max motor current          | 6 A      |
+| Control Interface          | CAN      |
 
 Key Components
 --------------
-MCU: Infineon XMC1404_F064X200A (ARM Cortex-M0, 32-bit, 48 MHz, 200 kB flash)
-Motor driver: Infineon IFX9201SG (6 A and 36 V H-bridge with SPI diagnostics)
-CAN transceiver: Infineon TLE7251VSJ
-Speed sensor: Infineon TLE4964-4M (High Precision Unipolar Hall Effect Switch)
-Temperature sensor: TI LM35DM (Precision Centigrade Temperature Sensor)
+
+| Component | Part | Details |
+| ----------| ---- | --------|
+| MCU | Infineon XMC1404_F064X200A | ARM Cortex-M0, 32-bit, 48 MHz, 200 kB flash |
+| Motor driver | Infineon IFX9201SG | 6 A and 36 V H-bridge with SPI diagnostics |
+| CAN transceiver | Infineon TLE7251VSJ | |
+| Speed sensor | Infineon TLE4964-4M | High Precision Unipolar Hall Effect Switch |
+| Temperature sensor | TI LM35DM | Precision Centigrade Temperature Sensor |
 
 Motor Alternatives
 ------------------
-Mabuchi RS-385PV-2465
-Mabuchi RS-365 
 
-![PCB rendered in KiCad](Wheel_ECU.png)
+ - Mabuchi RS-385PV-2465
+ - Mabuchi RS-365
 
 Release Notes
 -------------
