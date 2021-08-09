@@ -1,8 +1,8 @@
 Motor ECU
 =========
 
-This is the KiCad project for the PCB that is used as ECU for the Wheel and
-CentrifugalFan modules.
+This is the KiCad project for the PCB that is used as ECU for the Wolley Wheel
+and Fan modules.
 
 It's a circular PCB that a brushed DC motor can be directly mounted on to be
 controlled by the driver and MCU onboard through CAN.
