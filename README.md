@@ -1,5 +1,5 @@
-Motor ECU
-=========
+Wolley Motor ECU
+================
 
 This is the KiCad project for the PCB that is used as ECU for the Wolley Wheel
 and Fan modules.
