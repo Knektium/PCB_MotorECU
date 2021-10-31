@@ -17,7 +17,7 @@ Specifications
 | PCB layers                 | 2        |
 | PCB diameter               | 61 mm    |
 | Max motor diameter         | 28 mm    |
-| Motor center hole diameter | 10mm     |
+| Motor center hole diameter | 10 mm    |
 | Motor voltage              | 6 - 36 V |
 | Max motor current          | 6 A      |
 | Control Interface          | CAN      |
@@ -26,12 +26,12 @@ Key Components
 --------------
 
 | Component | Part | Details |
-| ----------| ---- | --------|
+| --------- | ---- | ------- |
 | MCU | Infineon XMC1404_F064X200A | ARM Cortex-M0, 32-bit, 48 MHz, 200 kB flash |
 | Motor driver | Infineon IFX9201SG | 6 A and 36 V H-bridge with SPI diagnostics |
 | CAN transceiver | Infineon TLE7251VSJ | |
-| Speed sensor | Infineon TLE4964-4M | High Precision Unipolar Hall Effect Switch |
-| Temperature sensor | TI LM35DM | Precision Centigrade Temperature Sensor |
+| Speed sensor | Infineon TLE4964-4M | High precision unipolar hall effect switch |
+| Temperature sensor | TI LM35DM | Precision centigrade temperature sensor |
 
 Motor Alternatives
 ------------------
