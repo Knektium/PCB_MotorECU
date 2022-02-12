@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Wolley Motor ECU"
-Date "2021-02-12"
-Rev "1.0"
+Date "2022-02-12"
+Rev "1.4"
 Comp "Knekt Technologies AB"
 Comment1 ""
 Comment2 ""
@@ -178,9 +178,9 @@ F 3 "" H 950 4450 50  0001 C CNN
 	1    950  4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 9850 5550 0    60   Input ~ 0
+Text GLabel 9850 5450 0    60   Input ~ 0
 CAN-
-Text GLabel 9500 5650 0    60   Input ~ 0
+Text GLabel 9500 5550 0    60   Input ~ 0
 CAN+
 $Comp
 L Motor_ECU-rescue:GND-Wheel_ECU-rescue #PWR06
@@ -196,12 +196,12 @@ $EndComp
 $Comp
 L Motor_ECU-rescue:+5V-Wheel_ECU-rescue #PWR07
 U 1 1 5BFC2D01
-P 9150 5400
-F 0 "#PWR07" H 9150 5250 50  0001 C CNN
-F 1 "+5V" H 9150 5540 50  0000 C CNN
-F 2 "" H 9150 5400 50  0001 C CNN
-F 3 "" H 9150 5400 50  0001 C CNN
-	1    9150 5400
+P 8900 5400
+F 0 "#PWR07" H 8900 5250 50  0001 C CNN
+F 1 "+5V" H 8900 5540 50  0000 C CNN
+F 2 "" H 8900 5400 50  0001 C CNN
+F 3 "" H 8900 5400 50  0001 C CNN
+	1    8900 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -264,31 +264,27 @@ SPEED_SENSOR_OUTPUT
 Wire Wire Line
 	7300 3000 7400 3000
 $Comp
-L Motor_ECU-rescue:Conn_01x04-Wheel_ECU-rescue J1
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5BFC3BD9
 P 10100 4400
-F 0 "J1" H 10100 4600 50  0000 C CNN
-F 1 "Conn_01x04" H 10100 4100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10100 4400 50  0001 C CNN
+F 0 "J1" H 10100 4700 50  0000 C CNN
+F 1 "Conn_01x05" H 10100 4100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10100 4400 50  0001 C CNN
 F 3 "" H 10100 4400 50  0001 C CNN
 	1    10100 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_ECU-rescue:Conn_01x04-Wheel_ECU-rescue J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 5BFC3C20
 P 10100 5650
-F 0 "J2" H 10100 5850 50  0000 C CNN
-F 1 "Conn_01x04" H 10100 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10100 5650 50  0001 C CNN
+F 0 "J2" H 10100 5950 50  0000 C CNN
+F 1 "Conn_01x05" H 10100 5350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10100 5650 50  0001 C CNN
 F 3 "" H 10100 5650 50  0001 C CNN
 	1    10100 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 5550 9850 5550
-Wire Wire Line
-	9900 5650 9500 5650
 $Comp
 L Motor_ECU-rescue:GND-Wheel_ECU-rescue #PWR012
 U 1 1 5BFC4380
@@ -303,24 +299,20 @@ $EndComp
 $Comp
 L Motor_ECU-rescue:+5V-Wheel_ECU-rescue #PWR013
 U 1 1 5BFC43C1
-P 9150 4150
-F 0 "#PWR013" H 9150 4000 50  0001 C CNN
-F 1 "+5V" H 9150 4290 50  0000 C CNN
-F 2 "" H 9150 4150 50  0001 C CNN
-F 3 "" H 9150 4150 50  0001 C CNN
-	1    9150 4150
+P 8900 4150
+F 0 "#PWR013" H 8900 4000 50  0001 C CNN
+F 1 "+5V" H 8900 4290 50  0000 C CNN
+F 2 "" H 8900 4150 50  0001 C CNN
+F 3 "" H 8900 4150 50  0001 C CNN
+	1    8900 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9900 4600 9800 4600
-Text GLabel 9850 4300 0    60   Output ~ 0
+Text GLabel 9850 4200 0    60   Output ~ 0
 CAN-
-Text GLabel 9500 4400 0    60   Output ~ 0
+Text GLabel 9500 4300 0    60   Output ~ 0
 CAN+
-Wire Wire Line
-	9900 4400 9500 4400
-Wire Wire Line
-	9900 4300 9850 4300
 Text GLabel 10100 1500 2    60   Input ~ 0
 CAN+
 Text GLabel 10100 1650 2    60   Input ~ 0
@@ -835,17 +827,6 @@ F 3 "" H 6850 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 6027FA18
-P 7800 4300
-F 0 "J5" H 7880 4292 50  0000 L CNN
-F 1 "Conn_01x02" H 7880 4201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 4300 50  0001 C CNN
-F 3 "~" H 7800 4300 50  0001 C CNN
-	1    7800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Motor_ECU-rescue:GND-Wheel_ECU-rescue #PWR024
 U 1 1 60286399
 P 6850 4950
@@ -953,7 +934,6 @@ Wire Wire Line
 	7200 4300 6850 4300
 Wire Wire Line
 	6850 4300 6850 4350
-Connection ~ 7200 4300
 Wire Wire Line
 	6850 4950 6850 4900
 Wire Wire Line
@@ -963,32 +943,21 @@ Wire Wire Line
 Connection ~ 6850 4700
 Wire Wire Line
 	6850 4700 6850 4650
-Connection ~ 7200 4700
 Wire Wire Line
 	6850 4200 6850 4300
 Connection ~ 6850 4300
 Wire Wire Line
 	9800 4600 9800 4800
 Wire Wire Line
-	9900 4500 9150 4500
+	9900 4500 8900 4500
 Wire Wire Line
-	9150 4500 9150 4150
+	9900 5750 8900 5750
 Wire Wire Line
-	9900 5750 9150 5750
-Wire Wire Line
-	9150 5750 9150 5400
+	8900 5750 8900 5400
 Wire Wire Line
 	9750 6000 9750 5850
 Wire Wire Line
 	9750 5850 9900 5850
-Wire Wire Line
-	7500 4700 7200 4700
-Wire Wire Line
-	7500 4700 7500 4400
-Wire Wire Line
-	7500 4400 7600 4400
-Wire Wire Line
-	7200 4300 7600 4300
 $Comp
 L Motor_ECU-rescue:TVS_Diode-Wheel_ECU-rescue D2
 U 1 1 60487B60
@@ -1104,4 +1073,44 @@ Text GLabel 2400 5500 0    60   Input ~ 0
 TEMP_SENSOR_OUTPUT
 Wire Wire Line
 	2500 5500 2400 5500
+$Comp
+L power:+BATT #PWR0101
+U 1 1 61E545A8
+P 9050 4350
+F 0 "#PWR0101" H 9050 4200 50  0001 C CNN
+F 1 "+BATT" H 9065 4523 50  0000 C CNN
+F 2 "" H 9050 4350 50  0001 C CNN
+F 3 "" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4150 8900 4500
+Wire Wire Line
+	9500 4300 9900 4300
+Wire Wire Line
+	9900 4200 9850 4200
+Wire Wire Line
+	9050 4400 9050 4350
+Wire Wire Line
+	9050 4400 9900 4400
+$Comp
+L power:+BATT #PWR0102
+U 1 1 61E8CB9F
+P 9050 5600
+F 0 "#PWR0102" H 9050 5450 50  0001 C CNN
+F 1 "+BATT" H 9065 5773 50  0000 C CNN
+F 2 "" H 9050 5600 50  0001 C CNN
+F 3 "" H 9050 5600 50  0001 C CNN
+	1    9050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5650 9050 5600
+Wire Wire Line
+	9050 5650 9900 5650
+Wire Wire Line
+	9500 5550 9900 5550
+Wire Wire Line
+	9900 5450 9850 5450
 $EndSCHEMATC

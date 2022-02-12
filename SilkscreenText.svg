@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="SilkscreenText.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5554293"
+     inkscape:cx="479.2889"
+     inkscape:cy="78.756393"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="18.64437"
+       y="156.22697"
+       width="1202.8834"
+       height="104.15131"
+       id="rect2478" />
+    <rect
+       x="6.2548871"
+       y="285.40158"
+       width="799.50208"
+       height="188.53976"
+       id="rect41173" />
+    <rect
+       x="6.2548871"
+       y="285.40158"
+       width="799.50208"
+       height="188.53976"
+       id="rect95425" />
+    <rect
+       x="6.2548871"
+       y="285.40158"
+       width="799.50208"
+       height="188.53976"
+       id="rect115729" />
+  </defs>
+  <g
+     inkscape:label="Lager 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g38859"
+       inkscape:export-filename="C:\Users\Jack\Pictures\aawolley2.png"
+       inkscape:export-xdpi="1200.002"
+       inkscape:export-ydpi="1200.002">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,75.573533,-20.067398)"
+         id="text41171"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect41173);fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:export-filename="C:\Users\Jack\Pictures\aawolley.png"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900"
+         x="485.07907"
+         y="0"><tspan
+           x="6.2558594"
+           y="321.89556"
+           id="tspan40504"><tspan
+             style="font-weight:300;font-stretch:condensed;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed,  Light Condensed'"
+             id="tspan40500">WOLLEY</tspan><tspan
+             style="font-weight:600;font-stretch:condensed;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed,  Semi-Bold Condensed';text-align:end;text-anchor:end"
+             id="tspan40502"> MOTOR ECU
+</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.13366044,0,0,0.13366044,60.089173,12.059044)"
+         id="text95423"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect95425);fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:export-filename="C:\Users\Jack\Pictures\aawolley.png"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900"
+         x="485.07907"
+         y="0"><tspan
+           x="594.51811"
+           y="321.89556"
+           id="tspan40508"><tspan
+             style="font-weight:300;font-stretch:condensed;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed,  Light Condensed';text-align:end;text-anchor:end"
+             id="tspan40506">VERSION 1.4</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.13366044,0,0,0.13366044,60.244219,27.799088)"
+         id="text115727"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect115729);fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:export-filename="C:\Users\Jack\Pictures\aawolley.png"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900"
+         x="485.07907"
+         y="0"><tspan
+           x="676.15805"
+           y="321.89556"
+           id="tspan40512"><tspan
+             style="font-weight:300;font-stretch:condensed;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed,  Light Condensed';text-align:end;text-anchor:end"
+             id="tspan40510">100135</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

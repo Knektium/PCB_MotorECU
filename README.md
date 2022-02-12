@@ -42,6 +42,10 @@ Motor Alternatives
 Release Notes
 -------------
 
+Version 1.4:
+ - Replaced the 4-pin connector with the new 5-pin connector.
+ - Removed the battery power connector.
+
 Version 1.3:
  - Moved the connectors closer to the middle to allow for more space and
    therefore better mounting.

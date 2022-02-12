@@ -1,4 +1,4 @@
-update=2021-08-02 17:44:22
+update=2022-02-12 14:41:51
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Wheel_ECU.net
+LastNetListRead=Motor_ECU.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -59,7 +59,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
